@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maedi Efendi Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+ <!-- Navbar -->
+<nav class="navbar">
+  <div class="container navbar-container">
+    <div class="navbar-left">
+      <a href="#home" class="brand">
+        <img src="./asset/Gambar WhatsApp 2025-03-10 pukul 20.39.55_e165f00b.jpg" alt="Logo" class="logo" />
+        <span class="brand-name">Maedi Efendi</span>
+      </a>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+  <!-- Header -->
+  <header class="hero" id="home">
+    <div class="overlay"></div>
+    <video autoplay muted loop>
+      <source src="./asset/lv_0_20250525093917.mp4" type="video/mp4" />
+    </video>
+    <div data-aos="fade-up" data-aos-delay="200"class="intro">
+      <h3>"Menyatukan Desain dan Logika dalam Kode."</h3>
+      <p>Front-End Developer: HTML, CSS, JavaScript, React — Membangun antarmuka yang estetis dan fungsional di berbagai perangkat.</p>
+      <a href="#about" class="btn">MORE INFO</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" data-aos="fade-up" data-aos-delay="300" class="section light">
+    <div class="container text-center">
+      <img src="./asset/customer-service.png" alt="About Icon" class="section-icon" />
+      <h1 class="title">About</h1>
+      <p>
+Individu dengan pengalaman 1 tahun dalam pengolahan dan pengelolaan data, serta kemampuan dalam memvisualisasikan data untuk keperluan analisis. Mahir dalam menggunakan berbagai perangkat lunak pengolahan data seperti Microsoft Excel dan Google Sheets. Memiliki tingkat ketelitian dan kecepatan yang tinggi dalam penginputan data, serta terbiasa bekerja di bawah tekanan dengan tetap menjaga akurasi pada data dalam jumlah besar. Mempunyai keterampilan komunikasi yang baik dan mampu bekerja secara mandiri maupun dalam tim.      </p>
+    </div>
+  </section>
+
+  <!-- Services -->
+<section id="services" data-aos="fade-up" data-aos-delay="300" class="section">
+  <div class="container text-center">
+    <h1 class="title">Services</h1>
+    <p class="description">
+      Kami menyediakan layanan dalam pengolahan dan visualisasi data untuk membantu menyajikan informasi secara jelas dan mudah dipahami. 
+      Selain itu, kami juga menawarkan pengembangan web dasar sebagai solusi digital yang mendukung penyampaian data dan informasi secara interaktif, efektif, dan terstruktur. 
+      Setiap layanan dirancang untuk memberikan nilai tambah bagi individu maupun organisasi yang membutuhkan pemanfaatan data secara optimal.
+    </p>
+    <div class="cards">
+      <div data-aos="fade-up" data-aos-delay="200"class="card">
+        <img src="./asset/Data analysis-amico (1).png" alt="Pengolahan Data" />
+        <h4>Pengolahan Data</h4>
+        <p>Mengolah data mentah menjadi informasi yang siap dianalisis menggunakan tools dasar seperti Excel dan Google Sheets.</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="300"class="card">
+        <img src="./asset/Data extraction-amico (1).png" alt="Visualisasi Data" />
+        <h4>Visualisasi Data</h4>
+        <p>Membuat grafik dan dashboard sederhana menggunakan Excel, atau Google Data Studio untuk menyampaikan data secara visual.</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="400"class="card">
+        <img src="./asset/Programming-amico (1).png" alt="Front-End Development" />
+        <h4>Front-End development</h4>
+        <p>Membangun halaman web sederhana menggunakan HTML, CSS, JavaScript dan template dasar Bootstrap untuk keperluan portofolio atau profil.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Portfolio -->
+<section id="portfolio" data-aos="fade-up" data-aos-delay="300" class="section">
+  <div class="container text-center">
+    <h1 class="title">Portfolio</h1>
+    <p class="description">
+      Beberapa hasil proyek sederhana yang telah saya kerjakan sebagai bentuk implementasi dari keahlian di bidang front-end development dan visualisasi data.
+    </p>
+    <div class="cards">
+      <div data-aos="fade-right" data-aos-delay="500" class="card">
+        <img src="./asset/Site Stats-amico.png" alt="Dashboard Visualisasi Data" />
+        <h4>Dashboard Visualisasi Data</h4>
+        <p>Dashboard interaktif menggunakan Microsoft Excel untuk menampilkan laporan bulanan penjualan dan performa tim.</p>
+        <a href="https://docs.google.com/spreadsheets/d/14ntRDGH8FMv4oNigUgH26wot2u6nQEdY/edit?usp=drive_link&ouid=108923866620062524392&rtpof=true&sd=true" class="btn">Lihat Proyek</a>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="500"class="card highlight">
+        <img src="./asset/Programming-bro.png" alt="Website Profil Pribadi" />
+        <h4>Website Profil Pribadi</h4>
+        <p>Website statis responsif yang dibangun menggunakan HTML, CSS, dan Bootstrap untuk menampilkan informasi profil dan kontak.</p>
+        <a href="https://maediefendi.github.io/nm-portofolio/" class="btn">Lihat Proyek</a>
+      </div>
+      <div data-aos="fade-left" data-aos-delay="500"class="card">
+        <img src="./asset/Developer activity-amico.png" alt="LKPD Digital" />
+        <h4>LKPD Digital</h4>
+        <p>LKPD digital berbasis web yang memungkinkan siswa mengisi latihan secara interaktif dan menampilkan hasilnya langsung dalam tabel, dibuat dengan HTML, CSS, dan JavaScript.</p>
+        <a href="https://maediefendi.github.io/LKPD---Based_Leraning/" class="btn">Lihat Proyek</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Experience -->
+<section id="experience" data-aos="fade-up" data-aos-delay="300" class="section">
+  <div class="container text-center">
+    <h1 class="title">Experience</h1>
+    <div class="experience-card">
+      <h4>Data Entry Staff – CV. Kahe Group</h4>
+      <p class="duration">Juli 2024 – Juli 2025</p>
+      <p class="description">
+        Bertanggung jawab dalam menginput data menggunakan Microsoft Excel dan Google Sheets, memastikan ketelitian dan kecepatan dalam pengolahan data. Bekerja sama dengan tim analis untuk menyusun laporan sederhana, serta terbiasa bekerja di bawah tekanan dengan tetap menjaga akurasi data.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Education -->
+<section id="education" data-aos="fade-up" data-aos-delay="300" class="section">
+  <div class="container text-center">
+    <h1 class="title">Education</h1>
+    <p class="subtitle">
+      Berikut adalah riwayat pendidikan formal yang telah saya tempuh, mencakup jenjang pendidikan menengah hingga perguruan tinggi. Pendidikan ini telah membentuk dasar keilmuan dan keterampilan saya dalam bidang analisis data, pengembangan web, serta pemahaman sosial-ekonomi yang kuat.
+    </p>
+    <div class="education-cards">
+      <div class="edu-card">
+        <img src="asset/logo-ut-small-transparent-300x226.png.webp" alt="Universitas Terbuka" class="edu-logo">
+        <h4>Universitas Terbuka</h4>
+        <p class="major">Sistem Informasi</p>
+        <p class="year">2025 ( Mahasiswa Aktif )</p>
+        <p class="desc">
+          Mahasiswa baru di bidang Sistem Informasi dengan kemampuan dalam pengolahan dan visualisasi data menggunakan Excel dan Google Sheets, serta pemahaman dasar dalam pengembangan web menggunakan HTML, CSS, dan JavaScript.
+        </p>
+      </div>
+      <div class="edu-card">
+        <img src="asset/images-removebg-preview.png" alt="Sman 1 Jamblang" class="edu-logo">
+        <h4>Sman 1 Jamblang</h4>
+        <p class="major">Ilmu Pengetahuan Sosial</p>
+        <p class="year">2021 – 2024</p>
+        <p class="desc">
+          Menyelesaikan pendidikan di jurusan Ilmu Pengetahuan Sosial (IPS) dengan fokus pada bidang ekonomi, sosiologi, dan geografi. Lulus dengan nilai akhir <strong>87,34</strong>, mencerminkan dedikasi akademis yang kuat.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" data-aos="fade-up" data-aos-delay="300" class="section light">
+  <div class="container text-center">
+    <form action="https://formspree.io/f/your-id" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" placeholder="Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+<footer class="custom-footer">
+  <div data-aos="fade-up" data-aos-delay="500" class="footer-content">
+    <img src="./asset/Gambar WhatsApp 2025-03-10 pukul 20.39.55_e165f00b.jpg" alt="Foto Profil" class="footer-avatar" />
+    <p class="footer-desc">
+      Pemula di dunia web development yang juga <br>
+      menguasai data entry dan visualisasi data. Semangat <br>
+      belajar hal baru dan berbagi solusi digital bermanfaat.
+    </p>
+    <div class="footer-socials">
+      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook" class="icon-link facebook">
+        <!-- Facebook Icon -->
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z" fill="white"/>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/maediefendi" target="_blank" aria-label="Instagram" class="icon-link instagram">
+        <!-- Instagram Icon -->
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .3 2.5.5.6.3 1.1.7 1.5 1.3.4.5.8 1.3.9 2.5.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 2-.5 2.5-.3.6-.7 1.1-1.3 1.5-.5.4-1.3.8-2.5.9-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.3-2.5-.5-.6-.3-1.1-.7-1.5-1.3-.4-.5-.8-1.3-.9-2.5C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-2 .5-2.5.3-.6.7-1.1 1.3-1.5.5-.4 1.3-.8 2.5-.9C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.4 0-4.6.1-1.1.1-1.7.3-2.1.5-.5.2-.9.5-1.2 1-.3.4-.6 1-.7 2.1-.1 1.2-.1 1.5-.1 4.3s0 3.1.1 4.3c.1 1.1.3 1.7.5 2.1.2.5.5.9 1 1.2.4.3 1 .6 2.1.7 1.2.1 1.5.1 4.3.1s3.1 0 4.3-.1c1.1-.1 1.7-.3 2.1-.5.5-.2.9-.5 1.2-1 .3-.4.6-1 .7-2.1.1-1.2.1-1.5.1-4.3s0-3.1-.1-4.3c-.1-1.1-.3-1.7-.5-2.1-.2-.5-.5-.9-1-1.2-.4-.3-1-.6-2.1-.7-1.2-.1-1.5-.1-4.3-.1zm0 3.7a5.2 5.2 0 1 1 0 10.4 5.2 5.2 0 0 1 0-10.4zm0 1.7a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.8-2.3a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z" fill="white"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/maedi-efendi-9734b0333" target="_blank" aria-label="LinkedIn" class="icon-link linkedin">
+        <!-- LinkedIn Icon -->
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path d="M4.98 3.5A2.5 2.5 0 0 1 7.48 6a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 2.5-2.5zM3 8h3.96v12H3V8zm7.49 0H14v1.63h.05c.49-.94 1.68-1.92 3.45-1.92 3.7 0 4.38 2.43 4.38 5.58V20h-3.96v-6.25c0-1.49-.03-3.41-2.08-3.41-2.08 0-2.4 1.62-2.4 3.3V20h-3.96V8z" fill="white"/>
+        </svg>
+      </a>
+      <a href="https://github.com/maediefendi" target="_blank" aria-label="GitHub" class="icon-link github">
+        <!-- GitHub Icon -->
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path d="M12 .3a12 12 0 0 0-3.79 23.4c.6.1.82-.3.82-.6v-2.2c-3.34.7-4.04-1.6-4.04-1.6a3.2 3.2 0 0 0-1.34-1.8c-1.1-.7.1-.7.1-.7a2.5 2.5 0 0 1 1.86 1.3 2.6 2.6 0 0 0 3.56 1 2.6 2.6 0 0 1 .78-1.7c-2.67-.3-5.47-1.3-5.47-5.7a4.4 4.4 0 0 1 1.2-3 4 4 0 0 1 .1-3s1-.3 3.3 1.2a11.2 11.2 0 0 1 6 0c2.2-1.5 3.2-1.2 3.2-1.2a4 4 0 0 1 .1 3 4.4 4.4 0 0 1 1.2 3c0 4.4-2.8 5.4-5.5 5.7a2.9 2.9 0 0 1 .84 2.2v3.2c0 .3.22.7.82.6A12 12 0 0 0 12 .3" fill="white"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <hr />
+  <div class="footer-bottom">
+    <p>&copy; 2025 MyWebsite. All rights reserved.<br>
+    Crafted with Maedi Efendi</p>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+  }
+</script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
