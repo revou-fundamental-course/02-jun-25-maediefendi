@@ -51,13 +51,16 @@ body, html {
 
 .hero {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 60px); /* Atur sesuai tinggi navbar */
+  padding-top: 60px; /* Biar kontennya tidak ketutupan */
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
 }
+
 
 .hero video {
   position: absolute;
