@@ -889,6 +889,37 @@ nav ul li a:hover::after {
   border: 1px solid #ffffff; /* opsional, garis tepi saat hover */
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid transparent;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border: 2px solid #0a3d62;
+}
+
+
+.card:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15) !important;
+  border: 2px solid #0a3d62 !important;
+}
+
 
 /* RESPONSIVE NAV */
 @media (max-width: 768px) {
